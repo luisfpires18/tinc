@@ -1,0 +1,19 @@
+@model IEnumerable<tinc.Web.Models.Sport>
+@{
+    ViewData["Title"] = "Sports";
+}
+
+<div class="list-group">
+
+        @foreach (var item in Model)
+        {
+            <div class="list-group-item justify-content-between">
+
+
+                <a>
+                    <h1><b>Name:</b>@item.Name</h1>
+                </a>
+            </div>
+        }
+ 
+</div>
