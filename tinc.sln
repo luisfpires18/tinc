@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tinc.Web", "tinc.Web\tinc.Web.csproj", "{B35204DB-4BFF-4E7D-9E98-2E0123FD1CDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 - Business", "10 - Business", "{02340190-2C28-4CF1-A790-A58F181D84A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 - Domain", "20 - Domain", "{8D5E6CC5-2F7C-4410-9670-6A6094B48B28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 - Repository", "30 - Repository", "{205E0075-768B-4324-A71B-9F0CE4F60F7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "50 - CrossCutting", "50 - CrossCutting", "{69190AD0-7F6E-405D-B915-E4C2E0FA2A73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "90 - Frontend", "90 - Frontend", "{72631B90-296E-4D2E-A09F-56CD8912C515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tinc.Business", "tinc.Business\tinc.Business.csproj", "{713F80F4-67DA-4A80-8947-A508F2E0A95C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tinc.Domain", "tinc.Domain\tinc.Domain.csproj", "{6B68AB92-F68D-42D9-9AAE-7272E98B8297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tinc.Dto", "tinc.Dto\tinc.Dto.csproj", "{75D6A587-166F-435E-B038-0A255953088E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tinc.Repository", "tinc.Repository\tinc.Repository.csproj", "{1B335924-1635-4C0F-818B-E2F812056F1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B35204DB-4BFF-4E7D-9E98-2E0123FD1CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35204DB-4BFF-4E7D-9E98-2E0123FD1CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35204DB-4BFF-4E7D-9E98-2E0123FD1CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35204DB-4BFF-4E7D-9E98-2E0123FD1CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713F80F4-67DA-4A80-8947-A508F2E0A95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713F80F4-67DA-4A80-8947-A508F2E0A95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713F80F4-67DA-4A80-8947-A508F2E0A95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713F80F4-67DA-4A80-8947-A508F2E0A95C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B68AB92-F68D-42D9-9AAE-7272E98B8297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B68AB92-F68D-42D9-9AAE-7272E98B8297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B68AB92-F68D-42D9-9AAE-7272E98B8297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B68AB92-F68D-42D9-9AAE-7272E98B8297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75D6A587-166F-435E-B038-0A255953088E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D6A587-166F-435E-B038-0A255953088E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75D6A587-166F-435E-B038-0A255953088E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75D6A587-166F-435E-B038-0A255953088E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B335924-1635-4C0F-818B-E2F812056F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B335924-1635-4C0F-818B-E2F812056F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B335924-1635-4C0F-818B-E2F812056F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B335924-1635-4C0F-818B-E2F812056F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B35204DB-4BFF-4E7D-9E98-2E0123FD1CDA} = {72631B90-296E-4D2E-A09F-56CD8912C515}
+		{713F80F4-67DA-4A80-8947-A508F2E0A95C} = {02340190-2C28-4CF1-A790-A58F181D84A0}
+		{6B68AB92-F68D-42D9-9AAE-7272E98B8297} = {8D5E6CC5-2F7C-4410-9670-6A6094B48B28}
+		{75D6A587-166F-435E-B038-0A255953088E} = {69190AD0-7F6E-405D-B915-E4C2E0FA2A73}
+		{1B335924-1635-4C0F-818B-E2F812056F1D} = {205E0075-768B-4324-A71B-9F0CE4F60F7D}
+	EndGlobalSection
+EndGlobal
