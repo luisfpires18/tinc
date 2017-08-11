@@ -1,19 +1,28 @@
 @model IEnumerable<tinc.Web.Models.Sport>
 @{
-    ViewData["Title"] = "Sports";
+    
 }
-
-<div class="list-group">
-
-        @foreach (var item in Model)
+<h2>Sports List</h2>
+<hr />
+<br />
+<form asp-controller="Sport" asp-action="Index" method="post">
+    <div class="list-group">
+        @if (Model.Any())
         {
-            <div class="list-group-item justify-content-between">
+             foreach(var item in Model)
+             {
+                 <div class="list-group-item justify-content-between">
 
-
-                <a>
-                    <h1><b>Name:</b>@item.Name</h1>
-                </a>
-            </div>
+                         <b>Name: </b>@item.Name
+                         <br/>
+                         <b>Responsible: </b>@item.Responsible
+                 </div>
+             }
+            <br/>
         }
- 
-</div>
+        else
+        {
+            <p>There is no data.</p>
+        }
+    </div>
+</form>
